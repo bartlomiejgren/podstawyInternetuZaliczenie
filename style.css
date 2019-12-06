@@ -1,0 +1,99 @@
+body {
+  background: url("https://www.elsetge.cat/myimg/f/28-283000_2400x1723-abstract-white-nice-white-background.jpg");
+}
+
+.wrap {
+  margin-left: 20px;
+}
+
+.wrap div:nth-child(1) h1 {
+  color: rosybrown;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.wrap div:nth-child(1) table {
+  border: 1px solid rosybrown;
+}
+
+.wrap div:nth-child(2) h1 {
+  color: maroon;
+  padding-bottom: 10px;
+  font-family: cursive;
+}
+
+.wrap div:nth-child(2) table {
+  border: 1px solid maroon;
+}
+
+.wrap div:nth-child(3) h1 {
+  color: indigo;
+  padding-left: 10px;
+  font-style: oblique;
+}
+
+.wrap div:nth-child(3) table {
+  border: 1px solid indigo;
+}
+
+.wrap div:nth-child(4) h1 {
+  color: teal;
+  padding-right: 10px;
+  font-weight: 100;
+}
+
+.wrap div:nth-child(4) table {
+  border: 1px solid teal;
+}
+
+img {
+  width: 100px;
+}
+
+p {
+  font-family: 'Bebas Neue', cursive;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  text-align: center !important;
+}
+
+@media screen and (max-width: 1000px) {
+  table {
+    color: red;
+  }
+}
+
+.trojkat {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid black;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+.animacja {
+  animation-name: animacja;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes animacja {
+  0% {
+    font-size: 20px;
+  }
+
+  50% {
+    font-size: 50px;
+  }
+
+  100% {
+    font-size: 20px;
+  }
+}
